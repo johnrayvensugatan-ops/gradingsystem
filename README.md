@@ -149,7 +149,7 @@ Follow these steps to publish your project live on the internet:
    - Click **uploading an existing file** on the repository page.
    - Drag and drop all files and folders from `StudentGradingSystem` (including `database.sql` and `README.md`).
    - Click **Commit changes**.
-4. Copy your GitHub repository URL (e.g., `https://github.com/yourusername/StudentGradingSystem`).
+4. Copy your GitHub repository URL (https://github.com/johnrayvensugatan-ops/gradingsystem).
 
 ---
 
@@ -158,26 +158,11 @@ Follow these steps to publish your project live on the internet:
 Send an email to your instructor with the following details:
 
 - **Recipient:** `kenthjoshuaespina@isufst.edu.ph`
-- **Subject:** `Final Project Submission: Student Grading System - [Your Full Name]`
+- **Subject:** `Final Project Submission: Student Grading System
 - **Body:**
-  - **Student Name:** [Your Full Name]
-  - **Course & Section:** [e.g., BSIT 3-A]
+  - **Student Name:** [Sugatan, John Rayven M.]
+  - **Course & Section:** [BSIT 3-A NT]
   - **Assigned Project Title:** Student Grading System
-  - **Live InfinityFree URL:** `https://yourfullname.epizy.com`
-  - **GitHub Repository URL:** `https://github.com/yourusername/StudentGradingSystem`
+  - **Live InfinityFree URL:** https://rayven.freehosting.dev/
+  - **GitHub Repository URL:** https://github.com/johnrayvensugatan-ops/gradingsystem
   - **Database SQL File:** Included in GitHub repository as `database.sql`
-
----
-
-## 🎤 5–7 Minute Presentation Guide
-
-When presenting your project to your instructor, use this recommended structure:
-
-| Time | Slide / Demonstration Topic | Key Points to Say |
-|---|---|---|
-| **0:00 - 1:00** | **Introduction & Objective** | *"Good day, Sir! Today I am presenting my Web Systems Technologies final project: the Student Grading System. The main objective of this project is to implement a responsive full-stack CRUD application using PHP, MySQL, and Bootstrap 5 to automate grade computation and student evaluation."* |
-| **1:00 - 2:00** | **Database Structure** | Explain the `student_grades` table (15 fields). Highlight the primary key, unique constraint preventing duplicate student subjects, proper data types, and timestamps. |
-| **2:00 - 3:30** | **Live CRUD Demonstration** | - **Create (Insert):** Fill out student info and show the live JavaScript grade calculation as you type period grades.<br>- **Read (Select):** Show the dashboard, search by student name/ID, filter by section, and review summary statistics.<br>- **Update (Edit):** Edit a student's final grade and demonstrate automatic recalculation of remarks from Failed to Passed.<br>- **Delete (Remove):** Show the delete confirmation modal preventing accidental data loss. |
-| **3:30 - 4:30** | **Printable Grade Slip Feature** | Open a student's grade slip (`view.php`) and click **Print Grade Slip** to show the professional paper layout. |
-| **4:30 - 5:30** | **InfinityFree Hosting Deployment** | Explain how `db_connect.php` connects to InfinityFree MySQL, show your live `epizy.com` website in the browser, and demonstrate that CRUD works live in production. |
-| **5:30 - 6:00** | **Conclusion & Q&A** | Thank the instructor and open the floor for any questions or code inspection. |
