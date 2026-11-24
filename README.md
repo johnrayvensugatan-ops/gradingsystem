@@ -10,8 +10,8 @@ A responsive web-based CRUD application developed with **PHP**, **MySQL**, **HTM
 - **Project Title:** Student Grading System
 - **Framework & Libraries:** Bootstrap 5.3, Bootstrap Icons, Custom CSS/JS
 - **Backend:** PHP 8+ with MySQLi (Object-Oriented & Prepared Statements)
-- **Database:** MySQL / MariaDB (`student_grading_db`)
-- **Deployment Platform:** InfinityFree Free Hosting (`https://yourname.epizy.com`)
+- **Database:** MySQL 
+- **Deployment Platform:** InfinityFree Free Hosting 
 - **Instructor Submission Email:** `kenthjoshuaespina@isufst.edu.ph`
 - **Presentation Time:** 5–7 Minutes
 
@@ -112,10 +112,10 @@ Follow these steps to publish your project live on the internet:
    - Click **MySQL Databases**.
    - Under **Create New Database**, type `student_grading_db` and click **Create Database**.
    - Note down the database details displayed on that page:
-     - **MySQL Hostname:** e.g., `sql300.epizy.com`
-     - **MySQL Username:** e.g., `epiz_12345678`
-     - **MySQL Password:** (Found in your InfinityFree Client Area under Account Details)
-     - **MySQL Database Name:** e.g., `epiz_12345678_student_grading_db`
+     - **MySQL Hostname:** `sql212.infinityfree.com`
+     - **MySQL Username:** `if0_43472398`
+     - **MySQL Password:** (KRSrrKkpTu6w)
+     - **MySQL Database Name:** `if0_43472398_db_gradingsystem`
 4. **Update `db_connect.php`:**
    - Open `db_connect.php` in any code editor.
    - Verified credentials in `db_connect.php`:
